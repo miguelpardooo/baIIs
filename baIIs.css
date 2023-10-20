@@ -1,0 +1,1110 @@
+body {
+	background-color: black;
+	background-image: url("img/background2.jpg");
+	background-repeat: no-repeat;
+  	background-size: 100%;
+  	margin-left: 0;
+  	margin-right: 0;
+  	text-shadow: 4px 4px 4px #000000;
+}
+
+/*HEADER*/
+header {
+	display: flex;
+	position: fixed;
+	top: 0;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	height: 90px;
+	background: linear-gradient(to right, #151515, black);
+	color: white;
+	font-family: Segoe UI Semibold;
+
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+	width: 220px;
+}
+
+.logo a {
+	float: left;
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+.lnn{
+	width: 70px;
+}
+
+.ln{
+	width: 150px; 
+}
+
+.baIIs_logo_noname_header {
+	width: 100%;
+}
+.baIIs_logo_name_header {
+	width: 100%;
+}
+
+.navbar {
+  justify-content: center;
+  width: 50%;
+  display: flex;
+}
+
+.navbar a {
+  align-items: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+}
+
+.navbar a span {
+  display: inline-block;
+  padding-left: 4px;
+}
+
+.navbar a:hover span {
+  color: #f69198;
+}
+
+.navbar a:hover img {
+  transform: scale(1.5);
+}
+
+.navbar a img {
+  width: 25px;
+  transition: 0.8s;
+}
+
+
+.redes{
+	display: flex;
+	width: 5%;
+	
+}
+
+.redes a {
+	float: right;
+	padding: 3px;
+}
+
+.youtubeh img {
+	width: 30px;
+	background-color: white;
+}
+
+.youtubeh:hover img {
+	transform: scale(1.4);
+	background: linear-gradient(to bottom, #bb80d4, #ff7077);
+}
+
+.instagramh img {
+	width: 30px;
+	background-color: white;
+}
+
+.instagramh:hover img {
+	transform: scale(1.4);
+	background: linear-gradient(to bottom, #bb80d4, #ff7077);
+}
+
+.twitterh img {
+	width: 30px;
+	background-color: white;
+}
+
+.twitterh:hover img {
+	transform: scale(1.4);
+	background: linear-gradient(to bottom, #bb80d4, #ff7077);
+}
+
+.tiktokh img {
+	width: 30px;
+	background-color: white;
+}
+
+.tiktokh:hover img {
+	transform: scale(1.4);
+	background: linear-gradient(to bottom, #bb80d4, #ff7077);
+}
+
+/*MAIN*/
+video {
+	display: block;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+}
+section {
+	font-family: Segoe UI Semibold;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.football{
+	display: flex;
+	margin-top: 6%;
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-bottom: 3%;
+	padding: 3%;
+	box-shadow: 0px 0px 0px 0 rgb(255, 255, 255), 5px 6px 5px 6px rgba(255, 255, 255, 0.742);
+}
+.football:hover {
+	background: url("img/stars.gif");
+}
+
+#image-container{
+	align-items: center;
+	display: flex;
+	width: 100%;
+}
+  
+#my-image {
+    transition: opacity 3s linear;
+	box-shadow: 1px 6px 5px 2px rgba(0, 0, 0, 0.7);
+	width: 100%;
+}
+
+.articulof {
+	display: flow-root;
+	padding-left: 5%;
+	text-shadow: 4px 4px 4px #000000;
+	text-align: center;
+}
+
+.articulof a{
+	color: white;
+	text-decoration: none;
+}
+
+.articulof a:hover{
+	color: #f69198;
+}
+
+.articulof a h2:hover{
+	transform: scale(1.4);
+	transition: 1s;
+}
+
+.articulof p{
+	text-align: justify;
+	font-size: 20px;
+}
+
+.basketball{
+	display: flex;
+	margin-top: 3%;
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-bottom: 4%;
+	padding: 3%;
+	box-shadow: 0px 0px 0px 0 rgb(255, 255, 255), 5px 6px 5px 6px rgba(255, 255, 255, 0.742);
+	flex-direction: row-reverse;
+}
+.basketball:hover {
+	background: url("img/stars.gif");
+}
+
+.imageb{
+	align-items: center;
+	display: flex;
+	width: 100%;
+}
+
+.imageb img{
+	box-shadow: 3px 6px 5px 1px rgba(0, 0, 0, 0.7);
+	width: 100%;
+}
+
+.articulob {
+	display: flow-root;
+	padding-right: 5%;
+	text-shadow: 4px 4px 4px #000000;
+	text-align: center;
+}
+
+.articulob a{
+	color: white;
+	text-decoration: none;
+}
+
+.articulob a:hover{
+	transform: scale(1.4);
+	color: #f69198;
+}
+
+.articulob a h2:hover{
+	transform: scale(1.4);
+	transition: 1s;
+}
+
+.articulob p{
+	text-align: justify;
+	font-size: 20px;
+}
+
+.vtb{
+	display: flex;
+	margin-top: 3%;
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-bottom: 4%;
+	justify-content: space-between;
+	text-shadow: 4px 4px 4px #000000;
+}
+
+.volleyball{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 22%;
+	padding: 4%;
+	box-shadow: 0px 0px 0px 0 rgb(255, 255, 255), 5px 6px 5px 6px rgba(255, 255, 255, 0.742);
+}
+.volleyball:hover {
+	background: url("img/stars.gif");
+}
+
+.tennis{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 22%;
+	padding: 4%;
+	box-shadow: 0px 0px 0px 0 rgb(255, 255, 255), 5px 6px 5px 6px rgba(255, 255, 255, 0.742);
+}
+.tennis:hover {
+	background: url("img/stars.gif");
+}
+
+.bowling{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 22%;
+	padding: 4%;
+	box-shadow: 0px 0px 0px 0 rgb(255, 255, 255), 5px 6px 5px 6px rgba(255, 255, 255, 0.742);
+}
+.bowling:hover {
+	background: url("img/stars.gif");
+}
+
+.imagev{
+	width: 100%;
+}
+
+.imaget{
+	width: 100%;
+}
+
+.imagebw{
+	width: 100%;
+}
+
+.imagev img{
+	width: 100%;
+	box-shadow: 3px 6px 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+.imaget img{
+	width: 100%;
+	box-shadow: 3px 6px 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+.imagebw img{
+	width: 100%;
+	box-shadow: 3px 6px 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+.volleyball a{
+	color: white;
+	text-decoration: none;
+}
+
+.volleyball a h2:hover{
+	transform: scale(1.2);
+	color: #f69198;
+}
+
+.volleyball a:hover h2{
+	transform: scale(1.2);
+	transition: 1s;
+}
+
+.tennis a{
+	color: white;
+	text-decoration: none;
+}
+
+.tennis a:hover{
+	transform: scale(1.2);
+	color: #f69198;
+}
+
+.tennis a h2:hover{
+	transform: scale(1.2);
+	transition: 1s;
+}
+
+.bowling a{
+	color: white;
+	text-decoration: none;
+}
+
+.bowling a:hover{
+	transform: scale(1.2);
+	color: #f69198;
+}
+
+.bowling a h2:hover{
+	transform: scale(1.2);
+	transition: 1s;
+}
+
+.rugby{
+	display: inline-block;
+	transition: transform 0.5s;
+}
+/*
+.rugby:hover {
+	transform: rotateY(360deg);
+}
+*/
+.prox{
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+}
+
+.contador{
+	display: flex;
+	justify-content: center;
+}
+
+.imgrugby{
+	display: flex;
+	justify-content: center;
+	width: 50%;
+}
+
+/*FOOTER*/
+.social_inicio {
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Segoe UI Semibold;
+	margin-top: 30%;
+	font-size: 28px;
+}
+.social_inicio img {
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.youtube img {
+	width: 65px;
+}
+.youtube:hover img {
+        transform: scale(1.8);
+}
+.instagram img {
+	width: 45px;
+}
+.instagram:hover img {
+        transform: scale(1.8);
+}
+.twitter img {
+	width: 45px;
+}
+.twitter:hover img {
+        transform: scale(1.8);
+}
+.tiktok img {
+	width: 40px;
+}
+.tiktok:hover img {
+        transform: scale(1.8);
+}
+.copy {
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 70px;
+	font-family: Segoe UI Semibold;
+	font-size: 14px;
+}
+.copy a {
+	color: white;
+	text-decoration: none;
+}
+.copy a:hover {
+	text-decoration: underline;
+}
+.baIIs_logo_footer {
+	display: block;
+	width: 7%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+
+#demo {
+	font-size: 80px;
+	color: white;
+	margin-top: 20%;
+	text-align: center;
+}
+
+
+
+/*CATALOGO*/
+.caja_carrito_menu {
+	float: left;
+	width: 21%;
+	margin-left: 2%;
+}
+.carrito {
+	color: white;
+	padding: 5%;
+	margin-left: 2%;
+	font-size: 120%;
+	font-family: Segoe UI Semibold;
+	border: 9px solid white;
+	border-radius: 40px;
+	background: linear-gradient(to bottom right,
+	 rgba(0, 0, 0, 0.7), rgba(37, 37, 37, 0.7));
+	width: 89%;
+	text-align: center;
+}
+.carrito button {
+	font-family: Segoe UI Semibold;
+}
+.carrito img {
+	width: 40%;
+	margin-bottom: 3%;
+}
+.carrito a {
+	color: #f69198;
+	text-decoration: none;
+}
+.carrito a:hover {
+	text-decoration: underline;
+}
+.importe {
+	background-color: black;
+	color: white;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 2%;
+	text-align: right;
+	transition: 0.5s;
+}
+.importe:hover {
+	color: yellow;
+	border: 2px solid yellow;
+}
+.buttons_productos button {
+	width: 48%;
+	border: 0.5% solid white;
+	border-radius: 10px;
+	padding: 2%;
+	color: white;
+	transition: 0.5s;
+}
+.mostrar_productos {
+	background: black;
+	margin-right: 2%;
+}
+.mostrar_productos:hover {
+	background: linear-gradient(to right, darkgray, grey);
+}
+.eliminar_productos {
+	background: black;
+	margin-left: 2%;
+}
+.eliminar_productos:hover {
+	background: linear-gradient(to right, salmon, red);	
+}
+.confirmar_compra {
+	width: 100%;
+	border: 0.5% solid white;
+	border-radius: 10px;
+	font-size: 115%;
+	padding: 3%;
+	background: black;
+	color: white;
+	margin-top: 4%;
+	transition: 0.5s;
+	
+}
+.confirmar_compra:hover {
+	background: linear-gradient(to right, lightgreen, green);
+}
+.carrito_listado {
+	font-size: 13px;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 3%;
+	text-align: right;
+}
+ol.productos_lista {
+  	list-style-type: none;
+  	counter-reset: item;
+  	padding-left: 0;
+}
+
+li.producto_item {
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+  	margin-bottom: 10px;
+  	text-align: left;
+  	counter-increment: item;
+}
+li.producto_item::before {
+  	content: counter(item) ". ";
+  	font-weight: bold;
+  	margin-right: 5px;
+}
+li.producto_item:hover {
+	color: yellow;
+}
+span.producto_nombre {
+  	flex-grow: 1;
+  	text-align: left;
+}
+
+span.producto_precio {
+  	text-align: right;
+  	flex-shrink: 0;
+  	margin-left: 10px;
+}
+
+hr.producto_separador {
+  	margin: 5px 0;
+  	border: none;
+  	border-top: 1px solid white;
+}
+
+.caja_menu {
+	width: 100%;
+	height: 1050px;
+	color: white;
+	padding: 1px;
+	margin-top: 15%;
+	font-size: 150%;
+	font-family: Segoe UI Semibold;
+	border: 9px solid white;
+	border-radius: 40px;
+	background: linear-gradient(to bottom right,
+	 rgba(0, 0, 0, 0.7), rgba(37, 37, 37, 0.7));
+	
+}
+#menu * { 
+	list-style:none;
+}
+#menu li { 
+	line-height:180%;
+}
+#menu li a{
+	color: #aaaaaa;
+	text-decoration:none;
+	text-shadow: 0px 0px 0px #000000;
+}
+#menu li a:before{ 
+	content:"\025b8"; color:#ddd; 
+	margin-right:4px;
+}
+#menu input[name="list"] {
+	position: absolute;
+	left: -1000em;
+}
+#menu label:before{ 
+	content:"\025b8"; 
+	margin-right:4px;}
+#menu input:checked ~ label:before{ 
+	content:"\025be";
+}
+#menu .interior{
+	display: none;
+}
+#menu input:checked ~ ul{
+	display:block;
+}
+
+.caja_tablas {
+	width: 68%;
+	height: 2250px;
+	color: white;
+	padding: 1px;
+	margin-top: 9%;
+	margin-left: 28%;
+	font-size: 150%;
+	font-family: Segoe UI Semibold;
+	border: 9px solid white;
+	border-radius: 40px;
+	background: linear-gradient(to bottom right,
+	 rgba(240, 240, 240, 0.7), rgba(215, 215, 215, 0.7));
+}
+.caja_tablas img:hover {
+	transform: scale(1.3);
+}
+.caja_tablas a {
+	color: black;
+	text-shadow: 0px 0px 0px #000000;
+	text-decoration: none;
+}
+.caja_tablas a:hover{
+	text-decoration: underline;
+	text-decoration-thickness: 10%;
+}
+.caja_tablas table {
+	margin-left: auto;
+	margin-right: auto;
+}
+.caja_tablas table th {
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	font-size: 64%;
+	text-shadow: 0px 0px 0px #000000;
+}
+.caja_tablas table td {
+	font-size: 80%;
+	color: black;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-shadow: 0px 0px 0px #000000;
+
+}
+.caja_tablas table .titulo td {
+	font-size: 150%;
+	color: white;
+	background: url("img/black_background.png");
+	background-repeat: no-repeat;
+	background-size: 9.7%;	
+}
+.titulo_futbol {
+	background: url("img/black_background.png");
+	background-repeat: no-repeat;
+	border-right: 1px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	width: 21%;
+}
+.titulo_baloncesto {
+	background: url("img/black_background.png");
+	background-repeat: no-repeat;
+	border-right: 1px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	width: 32%;
+}
+.titulo_voleibol {
+	background: url("img/black_background.png");
+	background-repeat: no-repeat;
+	border-right: 1px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	width: 25%;
+}
+.titulo_tenis {
+	background: url("img/black_background.png");
+	background-repeat: no-repeat;
+	border-right: 1px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	width: 17%;
+}
+.titulo_bolos {
+	background: url("img/black_background.png");
+	background-repeat: no-repeat;
+	border-right: 1px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	width: 19%;
+}
+.caja_tablas table th {
+	height: 90px;
+}
+.caja_tablas table tr {
+	border: 1px solid black;
+}
+.caja_tablas table .pequeno img {
+	width: 35%;
+	padding-bottom: 5%;
+	transition: 0.7s;
+}
+.caja_tablas table .mediano img {
+	width: 52%;
+	padding-bottom: 5%;
+	transition: 0.7s;
+}
+.caja_tablas table .grande img {
+	width: 70%;
+	padding-bottom: 5%;
+	transition: 0.7s;
+}
+.caja_tablas table button {
+	font-family: Segoe UI Semibold;
+	background-color: black;
+	color: white;
+	border: 0.5% solid white;
+	border-radius: 10px;
+	font-size: 100%;
+	padding: 3%;
+	transition: 1s;
+}
+.caja_tablas table button:hover {
+	transform: scale(1.3);
+	background-image: url("img/stars.gif");
+	background-color: #202020;
+	color: #f69198;
+}
+.rebaja {
+	text-decoration: line-through;
+	color: rgb(200, 0, 30);
+	font-size: 85%;
+}
+.parpadea:hover {
+  
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1.3s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+.social_catalogo {
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Segoe UI Semibold;
+	margin-top: 10%;
+	font-size: 28px;
+}
+.social_catalogo img {
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+/*ACERCA DE*/
+.intro {
+	width: 85%;
+	color: white;
+	font-size: 140%;
+	font-family: Segoe UI Semibold;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10%;
+	text-align: justify;
+}
+.chavales {
+	color: white;
+	font-family: Segoe UI Semibold;
+	margin-right: 3%;
+	margin-left: 3%;
+	margin-top: 3%;
+	display: flex;
+}
+.chavales img {
+	width: 100%;
+}
+.chavales div {
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+}
+.chavales li {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.miguel {
+	border: 9px solid white;
+	border-radius: 40px;
+	width: 47%;
+	margin-right: 2%;
+
+}
+.contenido {
+	display: flex;
+}
+.miguel_img {
+	float: left;
+	width: 50%;
+	padding-bottom: 0;
+
+}
+.miguel_text {
+	width: 50%;
+	font-size: 120%;
+	display: flow-root;
+}
+.miguel h1 {
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 245%;
+	width: 100%;
+}
+.miguel_email {
+
+} 
+.franco {
+	border: 9px solid white;
+	border-radius: 40px;
+	width: 47%;
+	margin-left: 2%;
+}
+.franco_img {
+	float: right;
+	width: 50%;
+	padding-bottom: 0;
+}
+.franco_text {
+	width: 50%;
+	font-size: 120%;
+}
+.franco h1 {
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 190%;
+	width: 100%;
+}
+.franco_email {
+	font-size: 90%;
+} 
+
+
+
+
+
+
+
+
+
+
+/*
+.chavales div {
+	border: 9px solid white;
+	border-radius: 40px;
+	width: 38%;
+	height: 720px;
+	color: white;
+	font-family: Segoe UI Semibold;
+	font-size: 200%;
+	padding: 20px;
+	margin-top: 4%;
+	text-align: center;
+	float: left;
+	margin-right: 3.5%;
+	margin-left: 3.5%;
+	display: block;
+	background: linear-gradient(to bottom right,
+	 rgba(0, 0, 0, 0.7), rgba(37, 37, 37, 0.7));
+}
+.chavales img {
+	width: 80%;
+	margin-top: 3%;
+}
+.chavales div li {
+	font-size: 60%;
+	text-align: left;
+	margin-left: 7%;
+	margin-top: 4%;
+}*/
+.disclaimer {
+	color: white;
+	font-family: Segoe UI Semibold;
+	font-size: 180%;
+	width: 89%;
+	height: 430px;
+	margin-top: 10%;
+	margin-left: 3%;
+	background: linear-gradient(to bottom right,
+	 rgba(0, 0, 0, 0.7), rgba(37, 37, 37, 0.7));
+	border: 9px solid white;
+	border-radius: 40px;
+	padding-right: 2%;
+	text-align: justify;
+
+}
+.disclaimer img {
+	float: left;
+	width: 35%;
+	padding: 1%;
+}
+.documentacion {
+	color: white;
+	font-family: Segoe UI Semibold;
+	font-size: 230%;
+	border: 9px solid white;
+	border-radius: 40px;
+	margin-top: 7%;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding: 2%;
+	padding-left: 5%;
+	background: linear-gradient(to bottom right,
+	 rgba(0, 0, 0, 0.7), rgba(37, 37, 37, 0.7));
+	text-align: justify;
+	height: 360px;
+}
+.documentacion img {
+	width: 25%;
+	float: right;
+	margin-left: 4%;
+}
+.documentacion a {
+	color: #f69198;
+	text-decoration: none;
+}
+.documentacion a:hover {
+	text-decoration: underline;
+}
+
+.social_acercade {
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Segoe UI Semibold;
+	margin-top: 5%;
+	font-size: 28px;
+
+}
+.social_acercade img {
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.baIIs_logo_footer_acercade {
+	display: block;
+	width: 7%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+
+
+
+/*COMPRAR*/
+
+
+.form {
+	color: white;
+	font-family: Segoe UI Semibold;
+	font-size: 200%;
+	border: 8px solid white;
+	border-radius: 40px;
+	background: linear-gradient(to bottom right,
+	 rgba(0, 0, 0, 0.7), rgba(37, 37, 37, 0.7));
+	margin-top: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 3%;
+}
+.form fieldset {
+	border: none;
+}
+.form input, select {
+	font-size: 100%;
+}
+.form .confirme, .pague, .borre, .confirmePago {
+	border: 0.5% solid white;
+	border-radius: 10px;
+	color: white;
+	transition: 0.5s;
+	background-color: black;
+	font-family: Segoe UI Semibold;	
+}
+.form .confirme:hover {
+	transform: scale(1.1);
+	background: linear-gradient(to right, lightgreen, green);
+}
+.form .pague:hover {
+	transform: scale(1.1);
+	background: linear-gradient(to right, goldenrod, darkgoldenrod);
+}
+.form .borre:hover {
+	transform: scale(1.1);
+	background: linear-gradient(to right, salmon, red);
+}
+.form .confirmePago {
+  	display: block;
+  	margin: 0 auto;
+  	text-align: center;
+}
+
+
+.form .confirmePago:hover {
+	transform: scale(1.1);
+	background: linear-gradient(to right, goldenrod, darkgoldenrod);
+}
+
+.metodos_pago img {
+	width: 15%;
+	margin-left: 80%;
+	background: rgba(240, 240, 240, 0.8);
+	border: 2px solid black;
+}
+.caja_metodo {
+	border: 2px solid white;
+	width: 50%;
+	padding: 2%;
+}
+#confirmado {
+	font-size: 150%;
+}
+#confirmado a {
+	color: #f69198;
+	text-decoration: none;
+}
+#confirmado a:hover {
+	text-decoration: underline;
+}

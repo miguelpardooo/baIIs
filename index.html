@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="wclassth=device-wclassth, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="baIIs.css">
+	<link rel="shortcut icon" href="img/baIIs_logo_noname.png">
+	<script type="text/javascript" src="cambiarImagen.js"></script>
+	<title>baIIs</title>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a class="lnn" href="index.html"><img class="baIIs_logo_noname_header" src="img/baIIs_logo_noname.png"></a>
+			<a class="ln" href="index.html"><img class="baIIs_logo_name_header" src="img/baIIs_logo_name.png"></a>
+		</div>
+			<nav class="navbar">
+			  <a class="inicio" href="index.html">
+			    <img src="img/inicio.gif">
+			    <span>Inicio</span>
+			  </a>
+			  <a class="registrarse" href="registrarse.html">
+			    <img src="img/catalogo.gif">
+			    <span>Registrarse</span>
+			  </a>
+			  <a class="comprar" href="comprar.html">
+			    <img src="img/comprar.gif">
+			    <span>Comprar</span>
+			  </a>
+			  <a class="acercade" href="acercade.html">
+			    <img src="img/acercade.gif">
+			    <span>Acerca de</span>
+			  </a>
+			</nav>
+
+		
+		<div class="redes">
+			<div>
+				<a class="instagramh" href="https://www.youtube.com/watch?v=mx86-rTclzA&themeRefresh=1"><img src="img/instagram_nobg.png"></a>
+				<a class="twitterh" href="https://www.youtube.com/watch?v=mx86-rTclzA&themeRefresh=1"><img src="img/twitter_nobg.png"></a>
+			</div>
+
+			<div>
+				<a class="youtubeh" href="https://www.youtube.com/watch?v=mx86-rTclzA&themeRefresh=1"><img src="img/youtube_nobg.png"></a>
+				<a class="instagramh" href="https://www.youtube.com/watch?v=mx86-rTclzA&themeRefresh=1"><img src="img/tiktok_nobg.png"></a>
+			</div>
+		</div>
+	</header>
+
+	<video controls>
+		<source src="ad.mp4" type="video/mp4">
+	</video>
+	
+	<section>
+		<div class="football">
+			<div id="image-container">
+				<img id="my-image" src="chavalejsugandofutbol.png" alt="Imagen 1">
+			</div>
+			
+			<div class="articulof">
+				<a href="comprar.html#tabla_futbol"><h2>BALONES DE FÚTBOL</h2></a>
+				<p>Mejora tu juego con nuestros balones de fútbol de alta calidad. 
+				Descubre rendimiento excepcional, precisión y durabilidad en cada toque. 
+				Nuestros balones ofrecen una aerodinámica superior y un diseño atractivo. 
+				Ya disponible el diseño de nuestra propia marca. ¡Compra ahora y verás la
+				diferencia!</p>
+			</div>
+		</div>
+
+		<div class="basketball">
+			<div class="imageb">
+				<img src="img/lebron.png" alt="Imagen 2">
+			</div>
+
+			<div class="articulob">
+				<a href="comprar.html#tabla_baloncesto"><h2>BALONES DE BALONCESTO</h2></a>
+				<p>¡Juega como una estrella con los balones de baloncesto preferidos de Lebron James!
+				Experimenta la precisión y el control que un verdadero campeón exige en cada lanzamiento.
+				Adquiere los tuyos hoy mismo en nuestra web, y descubre la mejor selección de balones
+				de alta calidad para convertirte en el rey de la cancha.</p>
+			</div>
+		</div>
+
+		<div class="vtb">
+			<div class="volleyball">
+				<div class="imagev">
+					<img src="img/voleibol-imagen.jpg" alt="Imagen 3">
+				</div>
+				<a href="comprar.html#tabla_voleibol"><h2>BALONES DE VOLEIBOL</h2></a>
+			</div>
+
+			<div class="tennis">
+				
+				<div class="imaget">
+					<img src="img/tenis-imagen.jpeg" alt="Imagen 4">
+				</div>
+				<a href="comprar.html#tabla_tenis"><h2>PELOTAS DE TENIS</h2>
+				</a>
+			</div>
+
+			<div class="bowling">
+				<div class="imagebw">
+					<img src="img/bolos-imagen.jpg" alt="Imagen 5">
+				</div>
+				<a href="comprar.html#tabla_bolos"><h2>BOLAS DE BOWLING</h2></a>
+			</div>
+		</div>
+
+		<div class="rugby">
+			<div class="contador">
+				<p id="demo"></p>
+				<script>
+
+				var countDownDate = new Date("Jun 6, 2023 20:00:00").getTime();
+
+				var x = setInterval(function() {
+
+				var now = new Date().getTime();
+					
+				var distance = countDownDate - now;
+					
+				var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+				var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+				var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+					
+				document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+				+ minutes + "m " + seconds + "s ";
+					
+				if (distance < 0) {
+					clearInterval(x);
+					document.getElementById("demo").innerHTML = "jaja no hay nada";
+				}
+				}, 1000);
+				</script>
+				
+			</div>
+			<h2 class="prox">PRÓXIMAMENTE...</h2>
+			<img class="imgrugby" src="img/rugby.png" alt="">
+		</div>	
+	</section>
+
+	<div class="footer_acercade">
+		<div class="social_inicio">
+			¡Síguenos en redes!<br>
+			<a class="youtube" href="https://www.youtube.com/watch?v=mx86-rTclzA&themeRefresh=1"><img src="img/youtube.png"></a>
+			<a class="instagram" href="https://www.youtube.com/watch?v=mx86-rTclzA&themeRefresh=1"><img src="img/instagram.png"></a>
+			<a class="twitter" href="https://www.youtube.com/watch?v=mx86-rTclzA&themeRefresh=1"><img src="img/twitter.png"></a>
+			<a class="tiktok" href="https://www.youtube.com/watch?v=mx86-rTclzA&themeRefresh=1"><img src="img/tiktok.png"></a>
+		</div>
+		<div class="copy">
+			Copyright © 2023 · 
+			<a href="index.html">baiis.es</a> · 
+			<a href="acercade.html">Contactar</a> · 
+			<a href="">Política de privacidad</a> · 
+			<a href="acercade.html#disclaimer">Aviso legal</a>
+		</div>
+		<img class="baIIs_logo_footer" src="img/baIIs_logo_black.png">
+	</div>
+	
+</body>
+</html>
